@@ -6,8 +6,6 @@ TRACE helps analysts collect evidence, preserve provenance, connect records, rec
 
 Everything is stored locally in the browser. There is no account, backend, analytics, or automatic upload of investigation data.
 
-## Live demo
-
 [Open TRACE on GitHub Pages →](https://xxvxxvxxvxxv.github.io/trace-investigation-workbench/)
 
 ![TRACE investigation workspace](screenshots/overview.jpg)

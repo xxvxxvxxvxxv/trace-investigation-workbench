@@ -1,11 +1,7 @@
 # Release screenshots
 
-Capture the real TRACE UI using only the fictional Harbor Signal case:
+Screenshots in this directory are public product visuals captured from the TRACE demo workspace.
 
-- `dashboard.png`
-- `evidence.png`
-- `graph.png`
-- `map.png`
-- `report.png`
+- `overview.jpg` — workspace overview and grouped navigation
 
-These files are intentionally absent until real release captures are prepared. Do not generate fake application screenshots or include private investigation records.
+Do not include private investigation records, exported backups, credentials, or original evidence.

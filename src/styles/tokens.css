@@ -1,0 +1,21 @@
+:root {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  color-scheme: dark;
+  --bg: #101318;
+  --panel: #181d24;
+  --panel2: #202731;
+  --border: #303944;
+  --muted: #a4aebc;
+  --accent: #deb477;
+  --text: #edf0f4;
+  --green: #96baa5;
+  --blue: #9ebcdf;
+  --red: #de9c97;
+  --violet: #b7a6d7;
+  --sidebar: 248px;
+  --inspector: 400px;
+  color: var(--text);
+  background: var(--bg);
+}

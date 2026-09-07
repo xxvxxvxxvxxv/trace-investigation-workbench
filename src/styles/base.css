@@ -1,0 +1,157 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.5;
+}
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+button,
+.button {
+  border: 1px solid var(--border);
+  border-radius: 5px;
+  background: #1c232d;
+  color: #dbe2ec;
+  padding: 9px 13px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-size: 14px;
+  text-decoration: none;
+  cursor: pointer;
+  line-height: 1.4;
+}
+button:hover,
+.button:hover {
+  background: #29323e;
+  border-color: #4c596c;
+}
+button:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+.primary {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #1b1b19;
+  font-weight: 600;
+}
+.primary:hover {
+  background: #e2c99f;
+  border-color: #e2c99f;
+}
+button:focus-visible,
+a:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+a {
+  color: #d7b77e;
+  overflow-wrap: anywhere;
+}
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+}
+h1 {
+  font-size: 30px;
+  letter-spacing: -0.7px;
+  font-weight: 600;
+  line-height: 1.25;
+  margin-bottom: 10px;
+}
+h2 {
+  font-size: 19px;
+  font-weight: 550;
+  letter-spacing: -0.25px;
+  margin-bottom: 10px;
+}
+h3 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+p {
+  line-height: 1.65;
+}
+small {
+  font-size: 12px;
+}
+input,
+select,
+textarea {
+  border: 1px solid var(--border);
+  border-radius: 5px;
+  background: #121820;
+  color: var(--text);
+  padding: 10px 12px;
+  min-width: 0;
+  font-size: 14px;
+}
+input::placeholder,
+textarea::placeholder {
+  color: #7f8c9e;
+}
+select {
+  cursor: pointer;
+  max-width: 100%;
+}
+textarea {
+  resize: vertical;
+}
+input[type="checkbox"] {
+  accent-color: var(--accent);
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+}
+label {
+  font-size: 14px;
+}
+small {
+  font-size: 0.875rem;
+}
+button,
+.button,
+a,
+input,
+select,
+textarea {
+  transition:
+    background-color 150ms,
+    border-color 150ms,
+    color 150ms;
+}
+button svg,
+a svg {
+  flex-shrink: 0;
+}
+summary {
+  cursor: pointer;
+  border-radius: 4px;
+}
+summary:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 4px;
+}
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *:before,
+  *:after {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+}

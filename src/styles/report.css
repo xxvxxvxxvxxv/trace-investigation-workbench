@@ -1,0 +1,162 @@
+.report {
+  background: #fcfcfa;
+  color: #252b32;
+  padding: 56px clamp(24px, 6vw, 86px);
+  max-width: 1100px;
+  margin: 24px auto;
+  border-radius: 3px;
+  box-shadow: 0 14px 50px #0004;
+  font-size: 15px;
+}
+.report-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+  padding-bottom: 26px;
+  border-bottom: 2px solid #343b43;
+  margin-bottom: 32px;
+}
+.report .trace-brand {
+  color: #202730;
+}
+.report .trace-brand svg {
+  color: #806337;
+}
+.report .eyebrow,
+.report .muted {
+  color: #5c6570;
+}
+.report h1 {
+  font-size: 36px;
+  margin: 16px 0;
+}
+.report h2 {
+  font-size: 20px;
+  margin: 34px 0 18px;
+  border-top: 1px solid #c7cbd0;
+  padding-top: 22px;
+}
+.report h3 {
+  font-size: 16px;
+}
+.report p {
+  line-height: 1.65;
+}
+.report-record {
+  padding: 16px 0;
+  border-bottom: 1px solid #dddfe2;
+  break-inside: avoid;
+}
+.report-record p {
+  font-size: 14px;
+  margin-bottom: 8px;
+  overflow-wrap: anywhere;
+}
+.report-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 24px;
+  font:
+    12px ui-monospace,
+    monospace;
+  border-bottom: 1px solid #c7cbd0;
+  padding-bottom: 22px;
+}
+.report .hash-entry {
+  break-inside: avoid;
+  padding: 14px 0;
+  border-bottom: 1px solid #d5d9dc;
+  font-size: 13px;
+}
+.hash-entry code {
+  display: block;
+  overflow-wrap: anywhere;
+  font-size: 12px;
+}
+.report footer {
+  border-top: 2px solid #343b43;
+  margin-top: 42px;
+  padding-top: 18px;
+  font-size: 12px;
+  color: #59616b;
+  break-before: avoid;
+}
+.report section {
+  break-inside: auto;
+}
+.report section h2,
+.report-record h3 {
+  break-after: avoid;
+}
+.report-record strong {
+  color: #303b46;
+}
+@media print {
+  @page {
+    size: A4;
+    margin: 18mm 16mm;
+  }
+  :root {
+    color-scheme: light;
+  }
+  body {
+    color: #111;
+    background: white;
+  }
+  .sidebar,
+  .topbar,
+  .page-heading,
+  .breadcrumb,
+  .demo-notice,
+  .page-footer,
+  .no-print,
+  .record-inspector,
+  dialog,
+  .toast,
+  .skip-link {
+    display: none !important;
+  }
+  .main-shell,
+  .has-inspector .main-shell {
+    margin: 0;
+    width: 100%;
+  }
+  main {
+    padding: 0;
+  }
+  .report {
+    box-shadow: none;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    max-width: none;
+    font-size: 11pt;
+  }
+  .report h1 {
+    font-size: 25pt;
+  }
+  .report h2 {
+    break-after: avoid;
+    font-size: 15pt;
+  }
+  .report h3 {
+    break-after: avoid;
+  }
+  .report-record p {
+    font-size: 10pt;
+  }
+  .report section {
+    break-inside: auto;
+  }
+  .report-record,
+  .hash-entry {
+    break-inside: avoid;
+  }
+  .report-top {
+    margin-bottom: 20px;
+  }
+  .report footer {
+    font-size: 9pt;
+  }
+}

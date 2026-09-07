@@ -2,8 +2,6 @@
 
 **Local-first open-source investigation workbench**
 
-[![Deploy to GitHub Pages](https://github.com/xxvxxvxxvxxv/trace-investigation-workbench/actions/workflows/deploy-pages.yml/badge.svg)](https://github.com/xxvxxvxxvxxv/trace-investigation-workbench/actions/workflows/deploy-pages.yml) [![Live demo](https://img.shields.io/badge/live_demo-open_TRACE-CEA967?style=flat)](https://xxvxxvxxvxxv.github.io/trace-investigation-workbench/)
-
 TRACE helps analysts collect evidence, preserve provenance, connect records, reconstruct timelines, and produce structured reports in one focused workspace.
 
 Everything is stored locally in the browser. There is no account, backend, analytics, or automatic upload of investigation data.
